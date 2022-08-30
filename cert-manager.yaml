@@ -3,6 +3,8 @@ kind: Subscription
 metadata:
   name: cert-manager-operator
   namespace: openshift-operators
+  labels:
+    usage: development
 spec:
   channel: "stable"
   installPlanApproval: Automatic
