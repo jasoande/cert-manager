@@ -9,5 +9,5 @@ spec:
   channel: "stable"
   installPlanApproval: Automatic
   name: cert-manager-operator
-  source: certified-operators
+  source: community-operators
   sourceNamespace: openshift-marketplace
