@@ -8,6 +8,6 @@ metadata:
 spec:
   channel: "stable"
   installPlanApproval: Automatic
-  name: cert-manager:v.1.9.1
+  name: cert-manager:v1.9.1
   source: community-operators
   sourceNamespace: openshift-marketplace
