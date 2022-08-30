@@ -1,7 +1,7 @@
 apiVersion: operators.coreos.com/v1alpha1
 kind: Subscription
 metadata:
-  name: cert-manager-operator
+  name: cert-manager
   namespace: openshift-operators
   labels:
     usage: development
