@@ -1,13 +1,13 @@
 apiVersion: operators.coreos.com/v1alpha1
 kind: Subscription
 metadata:
-  name: cert-manager:v1.9.1
+  name: cert-manager
   namespace: openshift-operators
   labels:
     usage: development
 spec:
   channel: "stable"
   installPlanApproval: Automatic
-  name: cert-manager:v1.9.1
+  name: cert-manager
   source: community-operators
   sourceNamespace: openshift-marketplace
